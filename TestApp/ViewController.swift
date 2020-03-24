@@ -35,6 +35,7 @@ class ViewController: UIViewController {
                     
                 self.outputRuby.text = inputText
                 self.outputCharacter.text = responseData.converted
+                    
             })
         }
     }
